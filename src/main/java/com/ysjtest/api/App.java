@@ -31,6 +31,11 @@ import java.util.Map;
  */
 public class App 
 {
+    /**
+     *
+     * @param args
+     * @throws Exception
+     */
     public static void main( String[] args )throws Exception
     {
         String getResult=sendGet("http://localhost:5000/api/User/getget","");
