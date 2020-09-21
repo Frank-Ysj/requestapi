@@ -26,7 +26,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 /**
- * Hello world!Test
+ * Hello world!Test111
  *
  */
 public class App 
@@ -96,7 +96,7 @@ public class App
 
     }
 
-    public static String sendPostRequest(String data) {
+    private static String sendPostRequest(String data) {
         //请求路径
         String inputHost = "http://127.0.0.1:5000/api/user/CreateUser";
         //请求报文
@@ -131,9 +131,9 @@ public class App
     /**
      * 向指定URL发送GET方法的请求
      *
-     * @param url发送请求的URL
-     * @param param请求参数，请求参数应该是 name1=value1&name2=value2 的形式。
-     * @return URL 所代表远程资源的响应结果
+     * @param :url发送请求的URL
+     * @param :请求参数应该是 name1=value1&name2=value2 的形式。
+     * @return :所代表远程资源的响应结果
      */
     public static String sendGet(String url, String param) {
         String result = "";
