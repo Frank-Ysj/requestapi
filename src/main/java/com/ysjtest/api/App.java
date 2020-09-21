@@ -37,7 +37,7 @@ public class App
         System.out.println( "Get结果："+getResult );
         User user=new User();
         user.setPhone("18463965388");
-        user.setNickname("Hello");
+        user.setNickname("Hello111");
         user.setPassword("romens");
         user.setState(1);
         user.setSign("sign");
@@ -103,7 +103,7 @@ public class App
         String inputMessage = data.isEmpty()?"{\n" +
                 "\t\"phone\": \"18463965388\",\n" +
                 "\t\"password\": \"romens\",\n" +
-                "\t\"nickname\": \"hello\",\n" +
+                "\t\"nickname\": \"hello1\",\n" +
                 "\t\"state\": 1,\n" +
                 "\t\"sign\": \"\"\n" +
                 "}":data;
